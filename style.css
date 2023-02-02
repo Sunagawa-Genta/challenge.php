@@ -1,0 +1,36 @@
+body {
+    background-image: url("img/home-img.jpg");
+    background-size: 100%;
+}
+
+.btn--orange,
+a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+}
+
+.btn--orange:hover,
+a.btn--orange:hover {
+    color: #fff;
+    background: #f56500;
+}
+
+a.btn--radius {
+    border-radius: 100vh;
+}
+
+.button {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background: #eb6100;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
